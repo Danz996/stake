@@ -1,0 +1,110 @@
+{
+/*•••••••••••••••••••••••••••••••••••••••••••••••
+         #BL`378_project - Limbo (stake)
+••••••••••••••••••••••••••••••••••••••••••••••• */
+
+ "Account" : {
+            "Token": "1a1085db774c17810b123eec8468a62ef9ad5b9207b7e9598dc4edaef0fee03ac4cb4e776d85b5740416478f0d907a46"
+            }
+
+ "Basic" : {
+        "BaseBet"   : "0.00000010"
+
+        "Multiplier":{
+                    "Min" : "5"
+                    "Max" : "11"
+                    }
+            }
+
+ "Increase Bet":{
+                 "If Win" : "0"
+                 "If Lose": "3.78"
+                 }
+
+ "Stop Profit": {
+            "Stop If Profit"  : "0.0001"
+
+            "Target Balance": "0"
+            }
+
+ "Repeat Bet":{
+                "Number"             : "5"
+                "Reset Repeat If Win": "1"
+                }
+
+ "Repeat Run":{
+             "Status": "ON"
+             "Delay" : "7"
+             }
+
+ "Delay": {
+        "Delay Bet"      : "0"
+        "Delay On Win"   : "0"
+        "Delay On Lose"  : "0"
+        }
+
+
+/*•••••••••••••••••••••••••••••••••••••••••••••••
+  User Guide:
+  *baca sampai habis!!
+
+• Curency:
+  • bch
+  • btc
+  • doge
+  • eos
+  • eth
+  • ltc
+  • trx
+  • xrp
+
+• Basic:
+  • BaseBet    = besar taruhan awal.
+  • Multiplier = 1.01 - 1000000
+
+• Increase Bet:
+  • if Win   = ...
+  • If Lose  = ...
+    *Isi "0" untuk menonaktifkan
+
+• Stop Profit:
+  • Stop If Profit
+    *isi dengan "0" untuk menonaktifkan
+
+  • Target Balance:
+    *Stop jika target balance tercapai
+    *Isi "0" untuk menonaktifkan
+  
+• Repeat Run:
+  *Otomatisasi sesi taruhan baru tanpa perlu
+   run ulang bot secara manual.
+  • ON / OFF
+  • Delay (jeda sebelum sesi berikutnya dimulai)
+
+• Delay:
+  • Delay Bet         = jeda per taruhan.
+  • Delay On Win      = jeda ketika Win.
+  • Delay On Lose     = jeda ketika Lose.
+    
+    
+  Sekian dan Terima Kasih.
+
+  Best Regards:
+  
+  • Kapal Api Special MIX
+  • semua admin _FiBancz999 - Project_
+  • semua admin _Bahu Jalan_
+  • @prasun_parate untuk fungsi Fibonacci
+  • ~RcX untuk beberapa fungsi yang saya gunakan
+  • Siapapun Anda dg Dukungannya
+  • and All Source Providers
+    
+  Hormat Saya
+  
+  #bancetz.Laut_ (yt)
+  @bancetz_Laut  (tg)
+  378bancetz.laut@gmail.com
+••••••••••••••••••••••••••••••••••••••••••••••• */
+
+}
+
